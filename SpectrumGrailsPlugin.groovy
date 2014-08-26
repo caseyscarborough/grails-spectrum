@@ -4,7 +4,7 @@ class SpectrumGrailsPlugin {
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "2.4 > *"
     // resources that are excluded from plugin packaging
-    def pluginExcludes = []
+    def pluginExcludes = [ ]
 
     // TODO Fill in these fields
     def title = "Spectrum Plugin" // Headline display name of the plugin
@@ -16,4 +16,7 @@ Grails plugin containing assets for Spectrum, the no-hassle colorpicker.
     // URL to the plugin's documentation
     def documentation = "http://grails.org/plugin/spectrum"
     def license = "MIT"
+
+    def scm = [ url: "https://github.com/caseyscarborough/grails-spectrum" ]
+    def issueManagement = [ system: "GitHub", url: "https://github.com/caseyscarborough/grails-spectrum/issues" ]
 }
